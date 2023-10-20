@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import paragraphData from "./data";
+import React from "react";
 
 function App() {
   const [textData, setTextData] = useState("");
